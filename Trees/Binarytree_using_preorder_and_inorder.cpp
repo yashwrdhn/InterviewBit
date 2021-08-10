@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "BinaryTreeClass"
+// #include "BinaryTreeClass"
 #include <conio.h>
 
 using namespace std;
@@ -7,7 +7,8 @@ using namespace std;
 int main(){
 
 	
-
+	cout<<"hello";
+	
 	getch();
 	return 0;
 }
