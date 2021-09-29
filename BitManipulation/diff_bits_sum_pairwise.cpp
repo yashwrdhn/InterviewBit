@@ -23,14 +23,26 @@ int main(){
 	int arr[] = { 1,3,5};
 	int n = 3;
 	int distinct = 0;
-	vector<vector<int>> arr2;
+	vector<vector<int>> arr2(3);
 
-	for(int i=0 ; i< n ;++i){
-		arr2.push_back({});
-		for(int j=0; j<n;++j){
-			arr2[i].push_back(0);
+	
+
+	
+	for(int i=0 ; i<n ;++i){
+
+		arr2[i] = vector<int>(n);
+
+		for(int j=0; j<n; ++j){
+			
+			arr2[i][j] = 0;
+		}	
+	}
+
+	for(int i=0; i<n ; ++i){
+		for(int j=0; j<n ; ++j){
+			cout<<arr2[i][j]<<" ";
 		}
-		
+	cout<<endl;
 	}
 
 	int sum = 0;
@@ -39,7 +51,7 @@ int main(){
 	for(int i=0; i<n ; ++i){
 		for(int j=0; j<n ; ++j){
 
-			if(i ==j ){
+			if(i == j){
 				arr2[i][i] = 0;
 				continue;
 			}
@@ -56,6 +68,13 @@ int main(){
 
 		final_ans += sum;
 		sum = 0;
+	}
+
+	for(int i=0; i<n ; ++i){
+		for(int j=0; j<n ; ++j){
+			cout<<arr2[i][j]<<" ";
+		}
+	cout<<endl;
 	}
 
 	
