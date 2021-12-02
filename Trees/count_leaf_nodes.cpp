@@ -1,6 +1,3 @@
-
-
-
 #include <conio.h>
 #include<bits/stdc++.h>
 

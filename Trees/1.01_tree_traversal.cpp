@@ -20,9 +20,9 @@ Node* newNode(int data){
 
 
 void postOrderTraversal(struct Node* node){
+
 	if(node->left != NULL){
 		postOrderTraversal(node->left); }
-	
 	
 
 	if(node->right != NULL){	
@@ -66,6 +66,7 @@ int treeSize(Node* node){
 
 
 int treeDepth(Node* node){
+
 	if(node == NULL) return 0;
 
 	return 1+max(treeDepth(node->left),treeDepth(node->right));
@@ -85,8 +86,6 @@ void mirrorTree(Node* node){
 
 	if(node == NULL ) return ;
 
-	
-
 	mirrorTree(node->left);
 	mirrorTree(node->right);
 
@@ -96,6 +95,7 @@ void mirrorTree(Node* node){
 	node->right = temp;
 
 }
+
 
 int main(){
 
