@@ -87,10 +87,10 @@ int main(){
      treenode* root = newNode(1);
     root->left = newNode(2);
     root->right = newNode(2);
-    root->left->left = newNode(4);
-    root->left->right = newNode(6);
-    root->right->right = newNode(4);
-    root->right->left = newNode(6);
+    root->left->left = newNode(2);
+    root->left->right = newNode(2);
+    // root->right->right = newNode(4);
+    // root->right->left = newNode(6);
     // root->left->right->left = newNode(6);   
 
     

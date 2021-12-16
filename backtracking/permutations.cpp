@@ -4,13 +4,11 @@
 using namespace std;
 
 void show(vector<int> &subset){
-
 	vector<int>::iterator itr = subset.begin();
-
 	while(itr != subset.end()){
 		cout<<*itr++<<" ";
 	}
-		cout<<endl;
+	cout<<endl;
 }
 
 
@@ -37,16 +35,15 @@ int main(){
 	
 	vector<int> arr = {2,4,5};
 	vector<bool> chosen(arr.size(),false);
-
 	vector<vector<int>> all ;
 
 	find_p(arr,all,chosen,{});
 
+	//sorting
 	for(int i=0 ;i<all.size();++i){
 		// sort(all[i].begin(),all[i].end());
 		show(all[i]);
 	}
-
 
 	getch();
 	return 0;

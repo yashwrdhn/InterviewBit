@@ -6,9 +6,7 @@
 using namespace std;
 
 void show(vector<int> &subset){
-
 	vector<int>::iterator itr = subset.begin();
-
 	while(itr != subset.end()){
 		cout<<*itr++<<" ";
 	}
@@ -16,18 +14,19 @@ void show(vector<int> &subset){
 }
 
 
-void find_subset(vector<int> &arr,int i,vector<vector<int>> &all, vector<int> subset){
+void find_subset(vector<int> &arr,int i,vector<vector<int>> &all, vector<int> subset,int k){
 
-	all.push_back(subset);
+	
+	if(subset.size() == k){
+		all.push_back(subset);
+		return ;
+	}
 	// show(subset);
-
 	for(int j=i; j<arr.size();++j){
 		subset.push_back(arr[j]);
-		find_subset(arr,j+1,all,subset);
+		find_subset(arr,j+1,all,subset,k);
 		subset.pop_back();
 	}
-
-
 }
 
 
@@ -39,24 +38,23 @@ int main(){
 	vector<vector<int>> all_k;
 
 	int index = 0;
-	find_subset(arr,index,all,{});
+	find_subset(arr,index,all,{},k);
 
 	cout<<all.size()<<endl;
 
 	for(int i=0 ;i<all.size();++i){
 		sort(all[i].begin(),all[i].end());
-		// show(all[i]);
+		show(all[i]);
 	}
-	sort(all.begin(),all.end());
+	// sort(all.begin(),all.end());
 	
-	for(int i=0 ;i<all.size();++i){
+	// for(int i=0 ;i<all.size();++i){
 		
-		if(all[i].size() == k){
-			all_k.push_back(all[i]);
-			// show(all[i]);
-		}
-		
-	}
+	// 	if(all[i].size() == k){
+	// 		all_k.push_back(all[i]);
+	// 		show(all[i]);
+	// 	}
+	// }
 
 	getch();
 	return 0;
