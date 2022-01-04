@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void print(int** edges, int n , int sv, bool* visited){
+void DFS(int** edges, int n , int sv, bool* visited){
 
 	cout<< sv <<endl;
 	visited[sv] = true;
@@ -17,11 +17,11 @@ void print(int** edges, int n , int sv, bool* visited){
 			if(visited[i]){
 				continue;
 			}
-			print(edges, n, i,visited); 
+			DFS(edges, n, i,visited); 
 		}
 	}
-	
 }
+
 
 int main(){
 	
@@ -37,23 +37,25 @@ int main(){
 		}
 	}
 
+
 	for(int i = 0; i < e ; i++){
 		int f,s;
 		cin >> f >> s;
 		edges[f][s] = 1;
 		edges[s][f] = 1;
 	}
-	bool* visited = new bool[n];
-	for(int i=0; i < n; ++i){
+	bool *visited = new bool[n];
+
+	for(int i=0 ;i < n; ++i){
 		visited[i] = false;
 	}
-	print(edges,n,0, visited);
 
-	delete [] visited;
+	cout<<"DFS :"<<endl;
+	DFS(edges, n, 0, visited);
+	
 	for(int i=0; i < n; ++i){
 		delete [] edges[i];
 	}
-
 	delete [] edges ;
 	
 	getch();
