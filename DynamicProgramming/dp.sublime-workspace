@@ -316,10 +316,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Yash/Desktop/bello/InterviewBit/DynamicProgramming"
 	],
 	"file_history":
 	[
+		"/C/Users/Yash/Desktop/bello/InterviewBit/DynamicProgramming/7.targetSum.cpp",
+		"/C/Users/Yash/Desktop/bello/InterviewBit/DynamicProgramming/6.countSubsetwithgivenDiff.cpp",
+		"/C/Users/Yash/Desktop/bello/InterviewBit/DynamicProgramming/5.MinSubsetSumDiff.cpp",
+		"/C/Users/Yash/Desktop/bello/InterviewBit/DynamicProgramming/4.countofSumSubset.cpp",
+		"/C/Users/Yash/Desktop/bello/InterviewBit/DynamicProgramming/3.EqualPartition.cpp",
+		"/C/Users/Yash/Desktop/bello/InterviewBit/DynamicProgramming/2.subsetSum.cpp",
+		"/C/Users/Yash/Desktop/bello/InterviewBit/DynamicProgramming/houseRobber_I.cpp",
 		"/C/Users/Yash/Desktop/cp/codechef/dec21_div3/hills_and_valleys.cpp",
 		"/C/Users/Yash/Desktop/cp/codechef/dec21_div3/utkarsh_&_placcement.cpp",
 		"/C/Users/Yash/Desktop/bello/InterviewBit/Math/dp_lengthL_valuelessthenK.cpp",
@@ -440,14 +446,7 @@
 		"/C/Users/Yash/Desktop/bello/react/my-app/src/index.js",
 		"/C/Users/Yash/Desktop/bello/react/my-app/src/App.js",
 		"/C/Users/Yash/Desktop/bello/react/my-app/src/CardList.js",
-		"/C/Users/Yash/Desktop/bello/react/my-app/src/Card.jsx",
-		"/C/Users/Yash/Desktop/bello/react/my-app/src/index.css",
-		"/C/Users/Yash/Desktop/bello/react/my-app/src/setupTests.js",
-		"/C/Users/Yash/Desktop/bello/react/my-app/src/logo.svg",
-		"/C/Users/Yash/Desktop/bello/react/my-app/src/hello.js",
-		"/C/Users/Yash/Desktop/bello/react/my-app/src/App.css",
-		"/C/Users/Yash/Desktop/bello/react/package.json",
-		"/C/Udemy - The Complete Web Developer in 2019 Zero to Mastery/12. DOM Manipulation/6.2 index.html.html"
+		"/C/Users/Yash/Desktop/bello/react/my-app/src/Card.jsx"
 	],
 	"find":
 	{
@@ -465,6 +464,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"4"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -556,7 +556,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\Yash\\Desktop\\bello\\InterviewBit\\IB.sublime-project"
+				"C:\\Users\\Yash\\Desktop\\cp\\CP.sublime-project"
 			]
 		],
 		"width": 380.0

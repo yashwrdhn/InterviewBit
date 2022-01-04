@@ -4,7 +4,7 @@
 using namespace std;
 
 
-void printBFS(int** edges, int n, int sv){
+void printBFS1(int** edges, int n, int sv){
 	queue<int> pendingVertices;
 	bool *visited = new bool[n];
 
@@ -37,6 +37,31 @@ void printBFS(int** edges, int n, int sv){
 
 }
 
+void printBFS2(int** edges,int n, int sv){
+
+	queue<int> q;
+	q.push(sv);
+	bool *visited = new bool[n];
+
+	for( int i = 0; i < n; ++i){
+		visited[i] = false;
+	}
+	visited[sv] = true;
+	while( !q.empty() ){
+		int x = q.front();
+		cout<<x<<" ";
+		q.pop(); 
+		
+		for(int i = 0; i < n; ++i){
+			if(i == x) continue;
+			if(edges[x][i] == 1 && !visited[i]){
+				q.push(i);
+				visited[i] = true;
+			}
+		}
+	}
+}
+
 
 int main(){
 	
@@ -60,8 +85,9 @@ int main(){
 	}
 	
 
-	printBFS(edges, n, 0);
-
+	printBFS1(edges, n, 0);
+	cout<<endl;
+	printBFS2(edges, n, 0);
 	
 	for(int i=0; i < n; ++i){
 		delete [] edges[i];
