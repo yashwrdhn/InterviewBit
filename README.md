@@ -1,2 +1,2 @@
 # InterviewBit
-My progress on Interview Bit
+My progress on data structures and algorithms
