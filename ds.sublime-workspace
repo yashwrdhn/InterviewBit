@@ -200,10 +200,10 @@
 	"buffers":
 	[
 		{
-			"file": "Graphs/topological_sort.cpp",
+			"file": "DynamicProgramming/11.2lcs_bottom_up.cpp",
 			"settings":
 			{
-				"buffer_size": 1346,
+				"buffer_size": 642,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
@@ -214,18 +214,98 @@
 					1,
 					"paste",
 					null,
-					"AQAAAAAAAAAAAAAAQgUAAAAAAAAAAAAA",
-					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+					"AQAAAAAAAAAAAAAAggIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
 		{
-			"file": "Graphs/DFS_disconnected_graph.cpp",
+			"file": "DynamicProgramming/14.shortest_common_supersequence.cpp",
 			"settings":
 			{
-				"buffer_size": 1670,
+				"buffer_size": 928,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAoAMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "DynamicProgramming/15.min_no_of_insertion_deletion.cpp",
+			"settings":
+			{
+				"buffer_size": 1207,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAtwQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "DynamicProgramming/12.longest_common_string.cpp",
+			"settings":
+			{
+				"buffer_size": 836,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAggIAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"paste",
+					null,
+					"AgAAAAAAAAAAAAAARAMAAAAAAAAAAAAARAMAAAAAAABEAwAAAAAAAIICAAAKaW50IGZpbmRfbGNzKCBzdHJpbmcgYSwgc3RyaW5nIGIsIGludCBtLCBpbnQgbil7CiAgICAKICAgIAogICAgdmVjdG9yPCB2ZWN0b3I8aW50Pj4gZHAobSsxLCB2ZWN0b3I8aW50PihuKzEsLTEpKTsKICAgIAogICAgCiAgICBmb3IoaW50IGkgPSAwOyBpIDwgbSsxOyArK2kpIGRwW2ldWzBdID0gMDsKICAgIGZvcihpbnQgaSA9IDA7IGkgPCBuKzE7ICsraSkgZHBbMF1baV0gPSAwOwogICAgCiAgICBmb3IoaW50IGkgPSAxOyBpIDwgbSsxOyArK2kpIHsKICAgICAgICBmb3IoaW50IGogPSAxOyBqIDwgbisxOyArK2opewogICAgICAgICAgICBpZihhW2ktMV0gPT0gYltqLTFdKXsKICAgICAgICAgICAgICAgIGRwW2ldW2pdID0gMSArIGRwW2ktMV1bai0xXTsKICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlewogICAgICAgICAgICAgICAgZHBbaV1bal0gPSBtYXgoIGRwW2ktMV1bal0sIGRwW2ldW2otMV0pOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgZm9yKGludCBpID0gMDsgaSA8IG0rMTsgKytpKSB7CiAgICAgICAgZm9yKGludCBqID0gMDsgaiA8IG4rMTsgKytqKXsgY291dCA8PCBkcFtpXVtqXSA8PCAiICI7IH0KICAgICAgICBjb3V0PDxlbmRsOwogICAgfQogICByZXR1cm4gZHBbbV1bbl07Cn0",
+					"AQAAAAAAAAABAAAAAAAAAAAAAACCAgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "DynamicProgramming/13.print_lcs.cpp",
+			"settings":
+			{
+				"buffer_size": 1080,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAAOAQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -353,10 +433,12 @@
 	"expanded_folders":
 	[
 		"/C/Users/Yash/Desktop/bello/Data structure and algorithms practice",
-		"/C/Users/Yash/Desktop/bello/Data structure and algorithms practice/Strings"
+		"/C/Users/Yash/Desktop/bello/Data structure and algorithms practice/DynamicProgramming"
 	],
 	"file_history":
 	[
+		"/C/Users/Yash/Desktop/bello/Data structure and algorithms practice/Graphs/topological_sort.cpp",
+		"/C/Users/Yash/Desktop/bello/Data structure and algorithms practice/.git/COMMIT_EDITMSG",
 		"/C/Users/Yash/Desktop/bello/Data structure and algorithms practice/Strings/kmp_algorithm.cpp",
 		"/C/Users/Yash/Downloads/WinterBlockchain/inbox-practice/compile.js",
 		"/C/Users/Yash/Downloads/WinterBlockchain/inbox-practice/contracts/inbox.sol",
@@ -482,9 +564,7 @@
 		"/C/Users/Yash/Desktop/bello/IB/heaps_maps/min_heap101.cpp",
 		"/C/Users/Yash/Desktop/bello/IB/heaps_maps/min_heap.cpp",
 		"/C/Users/Yash/Desktop/bello/IB/heaps_maps/k_largest_numbers.cpp",
-		"/C/Users/Yash/Desktop/bello/IB/heaps_maps/window_count.cpp",
-		"/C/Users/Yash/Desktop/bello/IB/hashing/common_element_3arrays.cpp",
-		"/C/Users/Yash/Desktop/bello/IB/hashing/pair==X.cpp"
+		"/C/Users/Yash/Desktop/bello/IB/heaps_maps/window_count.cpp"
 	],
 	"find":
 	{
@@ -525,20 +605,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Graphs/topological_sort.cpp",
-					"selected": true,
+					"file": "DynamicProgramming/11.2lcs_bottom_up.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1346,
+						"buffer_size": 642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1346,
-								1346
+								1,
+								642
 							]
 						],
 						"settings":
@@ -552,38 +631,136 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Graphs/DFS_disconnected_graph.cpp",
-					"semi_transient": true,
+					"file": "DynamicProgramming/14.shortest_common_supersequence.cpp",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1670,
+						"buffer_size": 928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								253,
-								253
+								732,
+								732
 							]
 						],
 						"settings":
 						{
+							"open_with_edit": true,
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": false
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 56.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "DynamicProgramming/15.min_no_of_insertion_deletion.cpp",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								647,
+								647
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 236.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "DynamicProgramming/12.longest_common_string.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								836,
+								836
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 20.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "DynamicProgramming/13.print_lcs.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1080,
+								1080
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"stack_multiselect": false,
 					"type": "text"
 				}
